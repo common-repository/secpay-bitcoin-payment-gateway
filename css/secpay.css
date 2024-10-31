@@ -1,0 +1,294 @@
+/* .wc_payment_method .payment_box {
+    background: #701111;
+} */
+
+.secpay-checkout-paymentinfo>p {
+    font-size: 16px;
+}
+
+.secpay-checkout-paymentinfo .total-amount {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.secpay-amount-exrate p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.payment_box.payment_method_secpay fieldset {
+    padding: 10px 20px;
+}
+
+.secpay-checkout-paymentinfo>p a {
+    color: #007aff !important;
+}
+
+div#secpay-payment-succ-qr {
+    background-color: #f9f9f9;
+    border: 1px solid #000000;
+    padding: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.secpay-bitcoin-qrcode img {
+    max-width: 100%;
+    width: 200px;
+}
+
+div#secpay-payment-succ-qr h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.payment-main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.payment-main-heading img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+div#secpay-payment-succ-qr p {
+    font-size: 18px;
+}
+
+.secpay-pay-info {
+    padding: 20px 0 5px 0;
+}
+
+.secpay-pay-info h5 {
+    margin-bottom: 6px;
+}
+
+.secpay-pay-info p a {
+    color: #007aff;
+}
+
+div#secpay-payment-succ-qr .secpay-order-status {
+    display: flex;
+    align-items: center;
+    line-height: 0;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+div#secpay-payment-succ-qr .secpay-order-status p {
+    font-weight: 500;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+
+a#check_status_btn,
+a#secpay_pay_later {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 6px;
+    font-size: 14px;
+}
+
+a#secpay_pay_later {
+    max-width: 130px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+#secpay-payment-succ-qr,
+#status_updating {
+    display: none;
+}
+
+div#secpay-payment-succ-qr .secpay-countdown-order {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+div#secpay-payment-succ-qr .secpay-countdown-order div {
+    display: flex;
+    margin-left: 10px;
+    padding: 0 15px;
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+}
+
+div#secpay-payment-succ-qr .secpay-countdown-order div p {
+    padding: 0 2px;
+}
+
+.second-time {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0px 0;
+}
+
+.second-time #status_check_time-parent {
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+
+.second-time #status_check_time-parent p {
+    line-height: 30px;
+}
+
+.second-time .secpay-order-status {
+    margin: 0 !important;
+}
+
+.secpay-order-pay-wrapper {
+    padding: 10px;
+}
+
+.secpay-order-pay-innerwrapper {
+    display: flex;
+    margin: 10px 0;
+}
+
+.secpay-order-pay-innerwrapper>div {
+    padding-left: 20px;
+}
+
+.secpay-order-pay-wrapper p,
+.secpay-order-pay-wrapper b {
+    font-size: 18px;
+}
+
+.secpay-pay-info.extra {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0 2px 0;
+}
+
+.secpay-pay-info.extra h4 {
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.secpay-bitcoin-qrcode {
+    text-align: center;
+    margin: 30px 0;
+}
+
+div#status_check_time {
+    margin: 0 6px 0 0;
+}
+
+a#check_status_btn {
+    border: 0;
+    font-size: 18px;
+    padding: 0;
+    color: #8282d9;
+    text-decoration: underline;
+}
+
+#secpay_pay_later_wrraper a#secpay_pay_later {
+    background-color: #9770dbe3;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.secpay-bottom-btn {
+    border-top: 2px solid black;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cancel-btn {
+    display: block;
+}
+
+.cancel-btn a {
+    border: 1px solid #a17fde;
+    border-radius: 10px;
+    padding: 4px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #a17fde;
+}
+
+.woocommerce-order {
+    display: flex;
+    flex-direction: column;
+}
+.woocommerce-order p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+    order: 2;
+}
+
+.woocommerce-order .woocommerce-order-overview {
+    order: 3;
+}
+
+.woocommerce-order .woocommerce-order-details {
+    order: 4;
+}
+
+.woocommerce-order div#secpay-payment-succ-qr {
+    order: 1;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+    div#secpay-payment-succ-qr {
+        padding: 40px 20px;
+    }
+
+    div#secpay-payment-succ-qr h3 {
+        font-size: 22px;
+    }
+
+    .secpay-pay-bitaddress p b,
+    div#secpay-payment-succ-qr p {
+        font-size: 16px;
+    }
+
+    .secpay-pay-info h4 {
+        font-size: 22px;
+    }
+
+    .secpay-order-pay-wrapper {
+        padding: 0px;
+    }
+    .cancel-btn a,
+    #secpay_pay_later_wrraper a#secpay_pay_later {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .cancel-btn a, #secpay_pay_later_wrraper a#secpay_pay_later {
+        font-size: 17px;
+    }
+    #secpay_pay_later_wrraper a#secpay_pay_later,
+    .cancel-btn a {
+        padding: 5px 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    div#secpay-payment-succ-qr h3 {
+        font-size: 20px;
+    }
+    .payment-main-heading img {
+        width: 36px;
+    }
+}
+

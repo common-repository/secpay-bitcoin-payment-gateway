@@ -1,0 +1,8 @@
+{
+	"type": "wordpress-dropin",
+	"require": {
+		"composer/installers": "~1.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "guzzlehttp/streams": "^3.0"
+    }
+}
